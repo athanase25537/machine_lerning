@@ -62,7 +62,7 @@ mean2 = mean_absolute_error(y_test, y_pred)
 
 model3 = RandomForestRegressor(random_state=1)
 # train the model
-model3.fit(X_train, y_train)
+model3.fit(X, y)
 # make predictions
 y_pred = model3.predict(X_test)
 score3 = model3.score(X_test, y_test) * 100
