@@ -3,17 +3,16 @@
 This FastAPI application provides a machine learning model to predict housing prices in Boston based on various features like crime rate, number of rooms, and proximity to employment centers.
 ## Table of Contents
 
-    API Features
+I.    API Features
 
-    Installation
+II.    Installation
 
-    Usage
+III.    Usage
 
-    API Endpoints
+IV.    API Endpoints
 
-    Input Features Documentation
+V.    Input Features Documentation
 
-    Example Requests
 ## API Features
 
     Predict Boston housing prices using a pre-trained RandomForestRegressor model.
