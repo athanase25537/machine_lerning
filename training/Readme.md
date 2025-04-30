@@ -33,9 +33,9 @@ git clone https://github.com/athanase25537/boston-housing-api.git
 cd boston-housing-api
 
 2. Install dependencies
-bash:
+    bash:
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 3. Download the pre-trained model
 
