@@ -7,6 +7,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
+import joblib
 
 # Download latest version
 # path = kagglehub.dataset_download("arunjangir245/boston-housing-dataset")
@@ -76,3 +77,5 @@ print("Mean Absolute Errors:")
 print(f"Linear Regression: {mean1*1000:.2f}$")
 print(f"Decision Tree Regressor: {mean2*1000:.2f}$")
 print(f"Random Forest Regressor: {mean3*1000:.2f}$")
+
+print(X_train.columns)
