@@ -15,13 +15,13 @@ V.    Input Features Documentation
 
 ## API Features
 
-    Predict Boston housing prices using a pre-trained RandomForestRegressor model.
+-    Predict Boston housing prices using a pre-trained RandomForestRegressor model.
 
-    Input validation with Pydantic to ensure correct data types.
+-    Input validation with Pydantic to ensure correct data types.
 
-    Automatic docs with Swagger UI (/docs) and ReDoc (/redoc).
+-    Automatic docs with Swagger UI (/docs) and ReDoc (/redoc).
 
-    Error handling for missing/invalid features.
+-    Error handling for missing/invalid features.
 
 ## Installation
 1. Clone the repository
